@@ -1,0 +1,13 @@
+class my_class:
+    x = 5
+    y=10
+    def add(self,a,b):
+        sum=self.x+self.y+a+b
+        print(sum)
+    def sub(self,a,b):
+        self.add(a,b)
+        
+
+obj1=my_class()
+obj1.add(2,3)
+obj1.sub(2,4)
